@@ -31,11 +31,21 @@ img {
 	max-width: 100%;
 }
 
-h2 {
-	font-size: 34px;
+// custom styles
+.container {
+	padding: $base-padding;
+	margin: $base-margin;
 
-	a {
-		font-size: 20px;
-		color: green;
+	h2 {
+		font-size: 34px;
+		color: $primary;
+
+		a {
+			font-size: 20px;
+			color: $info;
+		}
+	}
+	h3 {
+		color: $secondary;
 	}
 }
